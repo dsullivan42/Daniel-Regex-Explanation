@@ -28,13 +28,14 @@ Using the parentheses, we can separate the regex, into sections, allowing us to 
 ### Bracket Expressions
 Bracket expressions, are the expressions within the square brackets of a regex, when matching a url, these include [a-z] which is looking for a single character match in the range of a-z. 
 ### Character Classes
-
+The character classes, are sets of characters that the regex looks for to fulfill a match. The character classes we use are the \d, which is looking for a match, of a single digit, and the \w, which is looking for a match of any alphanumeric character plus underscore. 
 ### The OR Operator
-
+We don't make use of the OR Operator with our regex
 ### Flags
-
+We don't make us of Flags with our regex
 ### Character Escapes
-
+We make use of Character Escapes for when we use \/, since the forward slash has a special meaning, you need to use the back slash to escape it, to match a literal forward slash. This is the same for the \. and \:,  since . and : are special characters, you need to use \ to match a literal ":" and ".".
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Daniel Sullivan, Coding Bootcamp Student
+https://github.com/dsullivan42
