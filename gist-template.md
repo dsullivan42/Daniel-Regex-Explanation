@@ -20,9 +20,9 @@ The regex that I will be using today, will be matching a URL, or, `/^(https?:\/\
 ## Regex Components
 
 ### Anchors
-
+The anchor tags used in this regex, are the caret (^), which is read as the beginning of the string and the dollar ($) which is read as the end of that string. As you can see in the Regex linked above, it begins with /^ and ends with $/, signifying the beginning and end of the url string.
 ### Quantifiers
-
+The first quantifier that we utilize in this regex is the question mark(?) which means that it matches the pattern 0-1 times within the string.The next, the plus(+) meaning that the pattern matches 1 or more times. The next, the curly brackets({}) allows you to search for a pattern between a set parameter of numbers, for example, ours is {2,6}, so we are looking for a minumum of 2 matches, and a maximum of 6. The last quantifier that we use in this regex is the star (*), which means that it matches the pattern 0 or more times. 
 ### Grouping Constructs
 
 ### Bracket Expressions
