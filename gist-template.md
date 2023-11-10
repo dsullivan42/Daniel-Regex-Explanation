@@ -24,9 +24,9 @@ The anchor tags used in this regex, are the caret (^), which is read as the begi
 ### Quantifiers
 The first quantifier that we utilize in this regex is the question mark(?) which means that it matches the pattern 0-1 times within the string.The next, the plus(+) meaning that the pattern matches 1 or more times. The next, the curly brackets({}) allows you to search for a pattern between a set parameter of numbers, for example, ours is {2,6}, so we are looking for a minumum of 2 matches, and a maximum of 6. The last quantifier that we use in this regex is the star (*), which means that it matches the pattern 0 or more times. 
 ### Grouping Constructs
-
+Using the parentheses, we can separate the regex, into sections, allowing us to to search for different patterns throught the url, using the regex. We utilize the ?: which makes the grouping construct non-capturing. We use this, in the (https?:\/\/) portion of the code. 
 ### Bracket Expressions
-
+Bracket expressions, are the expressions within the square brackets of a regex, when matching a url, these include [a-z] which is looking for a single character match in the range of a-z. 
 ### Character Classes
 
 ### The OR Operator
